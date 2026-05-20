@@ -2,7 +2,7 @@
 
 [🇬🇧 English](README.md) | 🇷🇺 Русский
 
-Skill для [Claude Code](https://docs.anthropic.com/en/docs/claude-code), обучающий Claude работе с HTTP API BI-аналитики Bitrix24. С активированным skill'ом Claude умеет получать список таблиц (`gds.php?show_tables`), описывать их колонки (`gds.php?desc`) и забирать строки (`pbi.php`) с фильтрацией по диапазону дат и предикатами `dimensionsFilters` — а также знает о «молчаливых» ловушках протокола (требование UTF-8 в теле запроса, тихий no-op при неизвестных операторах, отсутствующий `IS_NOT_NULL`, семантические коды `P`/`S`/`F` для жизненного цикла CRM и т. д.), поэтому на них не спотыкается.
+Skill для [Claude Code](https://docs.anthropic.com/en/docs/claude-code), обучающий Claude работе с HTTP API BI-аналитики Bitrix24. С активированным skill'ом Claude умеет получать список таблиц, описывать их колонки и забирать строки с фильтрацией по диапазону дат и по предикатам.
 
 ## Как начать
 

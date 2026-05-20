@@ -2,7 +2,7 @@
 
 🇬🇧 English | [🇷🇺 Русский](README.ru.md)
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that teaches Claude how to talk to the Bitrix24 BI-analytics HTTP API. With this skill active, Claude can list tables (`gds.php?show_tables`), describe their columns (`gds.php?desc`), and fetch rows (`pbi.php`) with date-range filtering and `dimensionsFilters` predicates — and it knows the protocol's silent-failure traps (UTF-8 body requirement, silent no-op on unknown operators, missing `IS_NOT_NULL`, semantic codes `P`/`S`/`F` for CRM lifecycle, etc.) so it doesn't trip over them.
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) skill that teaches Claude how to talk to the Bitrix24 BI-analytics HTTP API. With this skill active, Claude can list tables, describe their columns, and fetch rows with date-range filtering and predicate filters.
 
 ## Getting started
 
